@@ -87,12 +87,13 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background-color: rgb(53, 5, 115);
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
 }
 
 a {
@@ -104,4 +105,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.main-dev {
+  background-color: blueviolet;
+  height: 100vh;
 }
