@@ -5,7 +5,7 @@ export default async function PostDetailsPage({ params }) {
   const postId = params.postid;
   const loadingJsx = (
     <div style={{ color: 'white' }}>
-      <h3>Loading...</h3>
+      <h3>Wait...</h3>
     </div>
   );
   return (
